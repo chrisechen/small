@@ -1,0 +1,9 @@
+<navigator url="/pages/jiekou/jiekou" hover-class="none">
+ <view class="color1">to jiekou</view>
+</navigator>
+<navigator url="/pages/mytest/mytest" hover-class="none">
+ <view>to mytest</view>
+</navigator>
+<navigator url="/pages/shituDemo/shituDemo" hover-class="none">
+ <view class="color1">to shiTu</view>
+</navigator>

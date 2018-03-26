@@ -1,0 +1,48 @@
+.flex-wrp{
+  display: flex;
+}
+.flex-item{
+  flex: 1;
+  height: 200rpx;
+  text-align: center
+}
+.flex-item2{
+  flex: 1;
+  text-align: center
+}
+.bc_green{
+  background: green;
+}
+.bc_red{
+  background: red;
+}
+.bc_blue{
+  background: blue;
+}
+.bc_yellow{
+  background: yellow;
+}
+.scroll-view-item{
+  height: 200rpx;
+}
+.scroll-view_H{
+  height: 100rpx;
+  width: 200%;
+  overflow-x: auto;
+}
+.scroll-view-item_H{
+  width: 200rpx;
+  height: 100rpx;
+  float: left;
+}
+
+.scroll-header{
+display: flex;
+white-space: nowrap;  
+}
+.scroll-header view{
+height:128rpx;
+width:128rpx;
+border:1px solid red;
+display: inline-block; 
+}

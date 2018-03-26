@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/mytest/mytest",
-    "pages/jiekou/jiekou"
+    "pages/jiekou/jiekou",
+    "pages/directory/directory",
+    "pages/shituDemo/shituDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",

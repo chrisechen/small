@@ -12,7 +12,7 @@ Page({
   //事件处理函数
   clickMe: function () {
     wx.navigateTo({
-      url: '../jiekou/jiekou'
+      url: '../directory/directory'
     })
   },
   bindViewTap: function() {
