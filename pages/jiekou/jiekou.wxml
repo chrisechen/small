@@ -1,0 +1,3 @@
+<view class="chen" wx:key="id" wx:for="{{listItem}}">
+{{index}} {{item.name}}
+</view>
