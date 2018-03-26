@@ -7,3 +7,6 @@
 <navigator url="/pages/shituDemo/shituDemo" hover-class="none">
  <view class="color1">to shiTu</view>
 </navigator>
+<navigator url="/pages/swiperDemo/swiperDemo" hover-class="none">
+ <view>to swiper</view>
+</navigator>

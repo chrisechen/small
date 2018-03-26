@@ -5,7 +5,8 @@
     "pages/mytest/mytest",
     "pages/jiekou/jiekou",
     "pages/directory/directory",
-    "pages/shituDemo/shituDemo"
+    "pages/shituDemo/shituDemo",
+    "pages/swiperDemo/swiperDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",
