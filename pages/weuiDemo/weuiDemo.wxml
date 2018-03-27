@@ -1,0 +1,52 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="primary">页面主操作 Normal</button>
+  <button class="weui-btn" type="primary" disabled="true">页面主操作 Disabled</button>
+  <button class="weui-btn" type="warn">警告类操作 Normal</button>
+  <button class="weui-btn" type="warn" disabled="true">警告类操作 Disabled</button>
+
+  <view class="weui-badge weui-badge_dot" style="margin-left: 5px;margin-right: 5px;"></view>
+  <view class="weui-badge" style="margin-left: 5px;">8</view>
+  <view class="weui-badge" style="margin-left: 5px;">new</view>
+
+  <view class="weui-flex">
+      <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+      <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+  </view>
+  <view class="weui-flex">
+      <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+      <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+      <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+  </view>
+  <view class="weui-flex">
+      <view><view class="placeholder">weui</view></view>
+      <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+      <view><view class="placeholder">weui</view></view>
+  </view>
+
+  <view class="page__title">图片的preview</view>
+  <span style="font-family:'Comic Sans MS';font-size:18px;color:#333333;">
+      <view wx:for="{{imgUrls}}" wx:for-item="image" class="previewimg">  
+          <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>  
+      </view>
+  </span>
+
+  <view class="page__bd">
+        <view class="weui-btn-area">
+            <button type="default" bindtap="open">ActionSheet</button>
+        </view>
+  </view>
+
+  <view class="page__bd">
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="default" bindtap="openConfirm">Confirm Dialog</button>
+            <button class="weui-btn" type="default" bindtap="openAlert">Alert Dialog</button>
+        </view>
+  </view>
+
+  <view class="page__bd">
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="default" bindtap="openToast">成功提示</button>
+            <button class="weui-btn" type="default" bindtap="openLoading">加载中提示</button>
+        </view>
+  </view>
+</view>
