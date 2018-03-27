@@ -6,7 +6,10 @@
     "pages/jiekou/jiekou",
     "pages/directory/directory",
     "pages/shituDemo/shituDemo",
-    "pages/swiperDemo/swiperDemo"
+    "pages/swiperDemo/swiperDemo",
+    "pages/movable/movable",
+    "pages/weuiDemo/weuiDemo"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

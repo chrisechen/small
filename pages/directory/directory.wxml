@@ -10,3 +10,9 @@
 <navigator url="/pages/swiperDemo/swiperDemo" hover-class="none">
  <view>to swiper</view>
 </navigator>
+<navigator url="/pages/movable/movable" hover-class="none">
+ <view class="color1">to movable</view>
+</navigator>
+<navigator url="/pages/weuiDemo/weuiDemo" hover-class="none">
+ <view>to weui</view>
+</navigator>
