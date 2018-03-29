@@ -7,6 +7,26 @@ Page({
   data: {
     listItem:[]
   },
+  onPullDownRefresh: function () {
+    console.log('触发');
+    var that = this;
+    wx.request({
+      url: 'https://www.easy-mock.com/mock/5abaf18742f56d2fba4391bd/homeList2/example',
+      method: 'GET',
+      success: function (res) { 
+        console.log('下拉成功'); 
+        that.setData({
+          listItem: res.data
+        }) 
+      },
+      fail: function (res) { console.log('下拉失败'); },
+      complete: function (res) {
+        console.log('1');
+        wx.stopPullDownRefresh();
+        console.log('2');
+      }
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -49,40 +69,6 @@ Page({
         }) 
       }
     })*/
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-    
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-    
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-    
   }
+
 })
